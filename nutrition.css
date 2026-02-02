@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: #111;
+    color: #fff;
+    
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 30px;
+    background: #fff;
+    color: #009dff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: all 0.3s ease;   /* MAGIC LINE */
+}
+
+/* Hover effect */
+.btn:hover {
+    background: #0072ff;
+    color: #fff;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(34, 123, 231, 0.753);
+}
+
+
+/* Features */
+.features {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.feature-box {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.feature {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+/* How it works */
+.how {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+
+.how ol {
+    margin-top: 20px;
+    list-style-position: inside;
+    font-size: 18px;
+}
+
+.how2 {
+    background: #e1e0e0;
+    padding: 60px;
+    display: flex;
+    gap: 40px;
+}
+
+.box {
+    width: 50%;
+    background: white;
+    padding: 30px;
+    text-align: left;
+}
+
+.how2 p {
+    margin-top: 20px;
+    list-style-position: inside;
+    font-size: 18px;
+}
+
+
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #111;
+    color: #fff;
+}
+
+
+body {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 60px;
+    background: #f0f2f5;
+    text-align: center;
+}
+
+.stats h2 {
+    font-size: 40px;
+    color: #0072ff;
+}

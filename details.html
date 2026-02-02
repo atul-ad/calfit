@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Health Details | BMI & BMR</title>
+    <link rel="stylesheet" href="details.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- LEFT SECTION : BMI -->
+    <div class="section left">
+        <h1>Body Mass Index (BMI)</h1>
+
+        <p>
+            Body Mass Index (BMI) is a simple numerical value used to assess whether a person
+            has a healthy body weight for their height. It helps identify weight categories
+            that may lead to health problems.
+        </p>
+
+        <h2>How BMI is Calculated</h2>
+        <div class="highlight">
+            <strong>BMI Formula:</strong><br>
+            BMI = weight (kg) ÷ height² (m²)
+        </div>
+
+        <h2>BMI Classification</h2>
+
+        <table>
+            <tr>
+                <th>BMI Range</th>
+                <th>Category</th>
+            </tr>
+            <tr>
+                <td>Below 18.5</td>
+                <td>Underweight</td>
+            </tr>
+            <tr>
+                <td>18.5 – 24.9</td>
+                <td>Normal weight</td>
+            </tr>
+            <tr>
+                <td>25 – 29.9</td>
+                <td>Overweight</td>
+            </tr>
+            <tr>
+                <td>30 and above</td>
+                <td>Obese</td>
+            </tr>
+        </table>
+
+        <h2>Why BMI Matters</h2>
+        <p>
+            BMI is widely used as a screening tool to detect potential weight-related
+            health risks such as heart disease, diabetes, and hypertension.
+            However, it does not directly measure body fat.
+        </p>
+    </div>
+
+    <!-- RIGHT SECTION : BMR -->
+    <div class="section right">
+        <h1>CalciFit Explanation</h1>
+
+        <h2>What is BMR?</h2>
+        <p>
+             Calories your body needs to stay alive (breathing, heart, brain)
+            if you do nothing all day.
+        </p>
+
+        <p>
+            CalciFit uses the <strong>Mifflin–St Jeor formula</strong>
+            (most accurate, medically accepted).
+        </p>
+
+        <h3>Male</h3>
+        <div class="highlight">
+            BMR = 10 × weight + 6.25 × height − 5 × age + 5
+        </div>
+
+        <h3>Female</h3>
+        <div class="highlight">
+            BMR = 10 × weight + 6.25 × height − 5 × age − 161
+        </div>
+
+        <p><strong>📌 This is why CalciFit asks for:</strong></p>
+        <ul>
+            <li>Age</li>
+            <li>Gender</li>
+            <li>Height</li>
+            <li>Weight</li>
+        </ul>
+
+        <h2>Step 2: TDEE (Total Daily Energy Expenditure)</h2>
+        <p>
+            Problem: BMR ignores lifestyle. A student isn't athlete.
+        </p>
+
+        <table>
+            <tr>
+                <th>Activity Level</th>
+                <th>Multiplier</th>
+            </tr>
+            <tr>
+                <td>Sedentary</td>
+                <td>1.2</td>
+            </tr>
+            <tr>
+                <td>Light</td>
+                <td>1.375</td>
+            </tr>
+            <tr>
+                <td>Moderate</td>
+                <td>1.55</td>
+            </tr>
+            <tr>
+                <td>Very Active</td>
+                <td>1.725</td>
+            </tr>
+        </table>
+
+        <div class="highlight">
+            <strong>TDEE = BMR × Activity Multiplier</strong>
+        </div>
+
+        <h2>Step 3: Goal Adjustment</h2>
+        <ul>
+            <li>Lose weight → TDEE − 500</li>
+            <li>Maintain weight → TDEE</li>
+            <li>Gain muscle → TDEE + 300</li>
+        </ul>
+
+        <div class="highlight">
+             <strong>Final number = Daily calorie need</strong>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

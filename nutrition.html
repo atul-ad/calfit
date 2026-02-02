@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  <!--UTF-8 supports:English letters Nepali, Hindi, Chinese Emojis 😄 Special symbols (₹, €, ©) -->
+    <title>CalFit | Smart Nutrition Assistant</title>
+    <link rel="stylesheet" href="nutrition.css">
+    <script src="nutrition.js"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">CalFit</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="calculator.html">Calculator</a></li>
+            <li><a href="#how">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Fuel Your Body the Smart Way</h1>
+        <p>
+            CalFit calculates your daily calorie needs, macros,
+            and fitness guidance based on your body and goals.
+        </p>
+        <a href="calculator.html" class="btn">Calculate Now</a>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+        <h2>Why CalFit?</h2>
+        <div class="feature-box">
+            <div class="feature">
+                <h3>Accurate Calories</h3>
+                <p>BMR & TDEE based calorie calculation.</p>
+            </div>
+            <div class="feature">
+                <h3>Macro Breakdown</h3>
+                <p>Protein, carbs, and fat tailored for your goal.</p>
+            </div>
+            <div class="feature">
+                <h3>Fitness Tips</h3>
+                <p>Personalized suggestions for better results.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="how" > <a name="how">
+        <h2>How It Works</h2>
+        <ol>
+            <li>Enter your body details</li>
+            <li>Select your activity & goal</li>
+            <li>Get your personalized nutrition plan</li>
+        </ol>
+    </section>
+
+  
+    <section class="how2">
+    <!-- LEFT RECTANGLE -->
+    <div class="box">
+        <h2>1. How Daily Calorie Needs Are Calculated? </h2><br>
+        <p> Step 1: BMR (Basal Metabolic Rate) <br>
+            Step 2: TDEE (Total Daily Energy Expenditure) <br> 
+            Step 3: Goal Adjustment. It asks if to  Lose weight, Maintain weight or Gain muscle<br>
+        </p>
+        <br><br><br>
+        <h2>2. Calculating BMI (Body Mass Index)</h2>
+        
+        <br><br><br>
+        <h2>3. How macronutrients Are Calculated (Protein, Carbs, Fat)</h2>
+        <p>Calories alone are useless without macronutrients. CalFit splits calories in a balanced plan of Protein(30%), Carbs(45%) and Fat(25%) <br> Conversion Rules: <br>
+            Protein grams = (calories × 0.30) / 4 <br>Carbs grams = (calories × 0.45) / 4 <br> Fat grams = (calories × 0.25) / 9
+        </p>
+    </div>
+
+    <!-- RIGHT RECTANGLE -->
+    <div class="box">
+        <h2>4. How Water Intake Is Calculated</h2>
+        <p>It is calculated by simple but effective health logic :  <br>Water required(liters per day) = weight x 0.033
+        </p>
+        <br><br><br>
+        <h2><u>Details and Suggestions</u></h2>
+        <p>
+        Carbs give energy, protein builds the body, fat protects the body. Eating all three in balance keeps us healthy. <br> 
+        CalciFit uses 30-45-25 split because it is easy to understand, safe for most people and balanced for students & beginners.
+        </p>
+        <br><br><br><br><br><br>
+        <h2>CLick on the button below for more details : </h2>
+        <button class="btn" onclick="window.location.href='details.html'">View Details</button>
+    </div>
+</section>
+
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 CalFit. Atul, Elish, Suan, Manish, Pranish</p>
+    </footer>
+
+</body>
+</html>
